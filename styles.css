@@ -1,0 +1,157 @@
+/* Universal Styles */
+  * {
+    font-family: 'Inknut Antiqua', 'Times New Roman', Times, serif;
+    font-size: 16px;
+    }
+    a {
+    text-decoration: none;
+    color: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+    }
+    body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    }
+    img {
+    object-fit: contain;
+    }
+
+/* Header */
+    nav {
+    display: inline-flex;
+    justify-content: space-around;
+    margin: auto;
+    flex-shrink: 1;
+    width: 100%;
+    align-items: center;
+    }
+    #logo-text {
+        font-size: 2rem;
+        line-height: 1.5em;
+        font-weight: 300;
+        margin-left: 0px;
+    }
+    ul {
+        display: inline-flex;
+    }
+    ul li{
+        text-emphasis: none;
+        text-decoration: none;
+        list-style: none;
+        padding: 20px;
+    }
+    button {
+    text-align: center;
+    background-color: rgba(0,0,0,0);
+    height: inherit;
+    }
+
+/* Hero */
+#hero-container {
+    height: 650px;
+    width: 1234px;
+    margin: auto;
+    background-image: url('https://images.unsplash.com/photo-1526234362653-3b75a0c07438?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 1;
+}
+#hero-image {
+    display: block;
+    width: inherit;
+    margin: auto;
+}
+
+/* Main  */
+#sentence {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width: 1234px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+h3 {
+    display: flex;
+    text-align: center;
+    font-size: 32px;
+    line-height: 54px;
+    font-weight: lighter;
+}
+#container-section {
+    width: 1234px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 900px;
+}
+.main-links {
+    border-bottom: 1px solid black;
+    padding-bottom: 3px;
+}
+.middle-box {
+    display: inherit;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 800px;
+    flex-shrink: 1;
+    margin: 0px auto;
+}
+#menu {
+    align-items: flex-end;
+}
+.main-links {
+    font-size: 60px;
+    font-family: 'Inknut Antiqua';
+}
+#dish-one {
+    margin-top: 78px;
+    width: 600px;
+}
+#dish-two {
+    height: 500px;
+}
+#dish-three {
+    width: 100%;
+    object-fit: cover;
+    max-height: 500px;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(56,56,59);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+.footer-text {
+    color: white;
+    font-family: 'Source Sans Pro';
+    font-size: 15px;
+    letter-spacing: .5px;
+}
+.footer-section {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    height: 175px;
+}
+#footer-logo {
+    font-size: 25px;
+}
+.footer-link {
+    color: rgb(168, 166, 161);
+    border-bottom: 1px solid;
+    padding-bottom: 2px;
+    font-size: 13px;
+}
